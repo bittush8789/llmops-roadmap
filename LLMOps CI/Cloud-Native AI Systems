@@ -1,0 +1,863 @@
+# Cloud-Native AI Systems
+
+# Introduction
+
+Cloud-Native AI Systems combine:
+- Cloud computing
+- Kubernetes
+- Distributed infrastructure
+- GPU acceleration
+- AI platforms
+
+to build scalable Generative AI and LLM applications.
+
+Modern AI systems require:
+- Massive GPU compute
+- Distributed networking
+- Elastic scaling
+- AI storage systems
+- Multi-region deployments
+
+Cloud-native architectures enable:
+- Enterprise AI platforms
+- AI SaaS products
+- Autonomous AI systems
+- Scalable inference infrastructure
+
+---
+
+# What is Cloud-Native AI?
+
+Cloud-native AI refers to:
+> AI systems designed using cloud-native technologies such as containers, Kubernetes, distributed infrastructure, and scalable cloud services.
+
+---
+
+# Why Cloud-Native AI Matters
+
+Benefits:
+- Scalability
+- Elastic GPU allocation
+- Global deployment
+- Cost optimization
+- High availability
+- Faster experimentation
+
+---
+
+# Cloud-Native AI Architecture
+
+```text
+Users
+  ↓
+API Gateway
+  ↓
+Kubernetes Cluster
+  ↓
+AI Inference Services
+  ↓
+GPU Infrastructure
+  ↓
+Storage & Networking
+```
+
+---
+
+# Core Components
+
+| Component | Purpose |
+|---|---|
+| Kubernetes | AI orchestration |
+| GPUs | AI compute |
+| Object storage | Model/data storage |
+| Networking | Distributed communication |
+| Observability | Monitoring & tracing |
+
+---
+
+# Cloud-Native AI Stack
+
+```text
+Applications
+      ↓
+AI Frameworks
+      ↓
+Inference Services
+      ↓
+Kubernetes
+      ↓
+GPU Infrastructure
+      ↓
+Cloud Platform
+```
+
+---
+
+# 1. AWS AI Stack
+
+## Overview
+
+Amazon Web Services (AWS) provides one of the largest AI cloud ecosystems.
+
+AWS supports:
+- LLM hosting
+- GPU infrastructure
+- AI APIs
+- Distributed training
+- Enterprise AI platforms
+
+---
+
+# AWS AI Architecture
+
+```text
+Applications
+      ↓
+AWS AI Services
+      ↓
+EKS / ECS
+      ↓
+GPU Instances
+      ↓
+S3 Storage
+```
+
+---
+
+# Core AWS AI Services
+
+| Service | Purpose |
+|---|---|
+| Amazon Bedrock | Managed foundation models |
+| SageMaker | ML platform |
+| EKS | Kubernetes |
+| EC2 GPU Instances | AI compute |
+| S3 | Object storage |
+| Inferentia | AI inference chips |
+| Trainium | AI training chips |
+
+---
+
+# Amazon Bedrock
+
+Bedrock provides:
+- Managed LLM APIs
+- Foundation models
+- Serverless AI access
+
+---
+
+# Supported Models
+
+| Model | Provider |
+|---|---|
+| Claude | Anthropic |
+| Llama | Meta |
+| Titan | AWS |
+| Mistral | Mistral AI |
+
+---
+
+# SageMaker
+
+SageMaker supports:
+- Model training
+- Deployment
+- MLOps pipelines
+- Distributed AI workflows
+
+---
+
+# AWS GPU Infrastructure
+
+Popular GPU instances:
+
+| Instance | GPU |
+|---|---|
+| p5 | H100 |
+| p4d | A100 |
+| g5 | A10G |
+| g6 | L4 GPUs |
+
+---
+
+# AWS AI Advantages
+
+- Mature cloud ecosystem
+- Global infrastructure
+- Enterprise integration
+- AI chip innovation
+
+---
+
+# 2. Azure AI Stack
+
+## Overview
+
+Microsoft Azure provides enterprise-focused AI infrastructure.
+
+Strong integration with:
+- OpenAI
+- Enterprise identity systems
+- Hybrid cloud infrastructure
+
+---
+
+# Azure AI Architecture
+
+```text
+Applications
+      ↓
+Azure OpenAI
+      ↓
+AKS Kubernetes
+      ↓
+GPU Infrastructure
+      ↓
+Azure Storage
+```
+
+---
+
+# Core Azure AI Services
+
+| Service | Purpose |
+|---|---|
+| Azure OpenAI | GPT model access |
+| Azure ML | AI lifecycle platform |
+| AKS | Kubernetes |
+| Azure AI Studio | AI application development |
+| Blob Storage | Object storage |
+
+---
+
+# Azure OpenAI
+
+Provides:
+- GPT models
+- Enterprise security
+- Managed APIs
+- Compliance support
+
+---
+
+# Azure AI Studio
+
+Supports:
+- Prompt engineering
+- AI workflow orchestration
+- Model deployment
+- Evaluation pipelines
+
+---
+
+# Azure AI Advantages
+
+- Enterprise compliance
+- Microsoft ecosystem integration
+- Hybrid cloud support
+
+---
+
+# 3. Google Cloud Vertex AI
+
+## What is Vertex AI?
+
+Vertex AI is Google Cloud’s unified AI platform.
+
+Supports:
+- Training
+- Deployment
+- MLOps
+- Generative AI workflows
+
+---
+
+# Vertex AI Architecture
+
+```text
+Applications
+      ↓
+Vertex AI
+      ↓
+GKE Kubernetes
+      ↓
+TPUs / GPUs
+      ↓
+Cloud Storage
+```
+
+---
+
+# Vertex AI Features
+
+| Feature | Benefit |
+|---|---|
+| Managed training | Simplified AI workflows |
+| Generative AI | Gemini integration |
+| Pipelines | MLOps automation |
+| Vector Search | AI retrieval |
+
+---
+
+# Vertex AI Components
+
+| Component | Purpose |
+|---|---|
+| Vertex Pipelines | ML orchestration |
+| Vertex Model Registry | Model tracking |
+| Vertex Endpoints | Inference APIs |
+| Vertex Search | AI retrieval |
+
+---
+
+# Google AI Infrastructure
+
+Google provides:
+- TPU clusters
+- Gemini APIs
+- Distributed AI infrastructure
+
+---
+
+# Google TPU
+
+TPU = Tensor Processing Unit
+
+Optimized for:
+- Deep learning
+- Transformer workloads
+
+---
+
+# Google Cloud AI Advantages
+
+- TPU ecosystem
+- Strong AI research
+- Gemini integration
+- Data analytics ecosystem
+
+---
+
+# 4. GPU Cloud Infrastructure
+
+## Why GPUs Matter
+
+LLMs require:
+- Massive parallel compute
+- Matrix operations
+- High-memory inference
+
+---
+
+# GPU Infrastructure Architecture
+
+```text
+Applications
+      ↓
+Inference Services
+      ↓
+GPU Clusters
+      ↓
+Distributed Networking
+```
+
+---
+
+# Popular Cloud GPUs
+
+| GPU | Usage |
+|---|---|
+| H100 | Enterprise AI |
+| A100 | Training & inference |
+| L40S | Inference |
+| RTX 4090 | Development |
+
+---
+
+# GPU Infrastructure Components
+
+| Component | Purpose |
+|---|---|
+| GPU nodes | AI compute |
+| NVLink | GPU communication |
+| InfiniBand | Distributed networking |
+| Kubernetes | GPU orchestration |
+
+---
+
+# GPU Cloud Challenges
+
+| Challenge | Description |
+|---|---|
+| Cost | Expensive infrastructure |
+| Availability | GPU shortages |
+| Scaling | Multi-user workloads |
+| Power usage | High energy consumption |
+
+---
+
+# GPU Scheduling
+
+Used for:
+- Multi-tenant AI systems
+- Resource allocation
+- GPU optimization
+
+---
+
+# 5. Serverless AI
+
+## What is Serverless AI?
+
+Serverless AI abstracts:
+- Infrastructure management
+
+allowing developers to focus on:
+- AI applications
+
+---
+
+# Serverless AI Workflow
+
+```text
+User Request
+      ↓
+Serverless Endpoint
+      ↓
+On-Demand AI Inference
+```
+
+---
+
+# Benefits
+
+| Benefit | Description |
+|---|---|
+| Auto-scaling | Dynamic workloads |
+| Pay-per-use | Cost optimization |
+| Reduced ops | Simpler deployment |
+
+---
+
+# Serverless AI Platforms
+
+| Platform | Service |
+|---|---|
+| AWS | Bedrock Lambda |
+| Azure | Azure Functions |
+| GCP | Cloud Run |
+
+---
+
+# Serverless AI Challenges
+
+| Challenge | Description |
+|---|---|
+| Cold starts | Startup latency |
+| GPU limitations | Limited AI hardware |
+| Long inference | Timeout issues |
+
+---
+
+# 6. Edge AI
+
+## What is Edge AI?
+
+Edge AI runs:
+- AI inference near users/devices
+
+instead of centralized clouds.
+
+---
+
+# Edge AI Architecture
+
+```text
+Device
+  ↓
+Local AI Inference
+  ↓
+Minimal Cloud Dependency
+```
+
+---
+
+# Why Edge AI Matters
+
+Benefits:
+- Low latency
+- Offline inference
+- Privacy
+- Reduced bandwidth
+
+---
+
+# Edge AI Use Cases
+
+| Use Case | Example |
+|---|---|
+| Smart cameras | Real-time detection |
+| Mobile AI | Offline assistants |
+| IoT systems | Local AI inference |
+
+---
+
+# Edge AI Hardware
+
+| Hardware | Purpose |
+|---|---|
+| Jetson | NVIDIA edge AI |
+| Raspberry Pi | Lightweight AI |
+| NPUs | AI acceleration |
+
+---
+
+# Edge AI Challenges
+
+- Limited compute
+- Memory constraints
+- Smaller models required
+
+---
+
+# 7. Hybrid AI Infrastructure
+
+## What is Hybrid AI?
+
+Hybrid AI combines:
+- On-prem infrastructure
+- Cloud AI systems
+
+---
+
+# Hybrid AI Architecture
+
+```text
+On-Prem AI
+      +
+Cloud AI
+      ↓
+Unified AI Platform
+```
+
+---
+
+# Why Hybrid AI?
+
+Benefits:
+- Data privacy
+- Compliance
+- Cost optimization
+- Flexible scaling
+
+---
+
+# Hybrid AI Use Cases
+
+- Enterprise AI
+- Healthcare systems
+- Financial institutions
+
+---
+
+# Hybrid AI Components
+
+| Component | Purpose |
+|---|---|
+| Private GPU cluster | Sensitive workloads |
+| Public cloud | Elastic scaling |
+| Secure networking | Hybrid communication |
+
+---
+
+# 8. Multi-Cloud AI
+
+## What is Multi-Cloud AI?
+
+Multi-cloud AI uses:
+- Multiple cloud providers simultaneously.
+
+---
+
+# Multi-Cloud Workflow
+
+```text
+AWS GPUs
+    +
+Azure OpenAI
+    +
+Google Vertex AI
+```
+
+---
+
+# Benefits
+
+| Benefit | Description |
+|---|---|
+| Vendor flexibility | Reduced lock-in |
+| Global scaling | Multi-region AI |
+| Cost optimization | Best-provider selection |
+
+---
+
+# Multi-Cloud Challenges
+
+| Challenge | Description |
+|---|---|
+| Networking complexity | Cross-cloud communication |
+| Security management | Unified governance |
+| Data consistency | Distributed storage |
+
+---
+
+# Multi-Cloud Orchestration
+
+Tools:
+- Kubernetes
+- Terraform
+- Istio
+- Crossplane
+
+---
+
+# 9. AI Networking
+
+## Why AI Networking Matters
+
+Distributed AI systems require:
+- High-bandwidth communication
+- Low-latency networking
+- GPU synchronization
+
+---
+
+# AI Networking Architecture
+
+```text
+GPU Clusters
+      ↓
+High-Speed Network
+      ↓
+Distributed AI Training
+```
+
+---
+
+# Networking Technologies
+
+| Technology | Purpose |
+|---|---|
+| InfiniBand | Ultra-fast networking |
+| NVLink | GPU communication |
+| RoCE | RDMA over Ethernet |
+| 400G Ethernet | AI traffic scaling |
+
+---
+
+# AI Networking Requirements
+
+| Requirement | Importance |
+|---|---|
+| Low latency | Faster inference |
+| High throughput | Distributed training |
+| RDMA | Direct GPU communication |
+
+---
+
+# AI Networking Challenges
+
+- GPU bottlenecks
+- Cross-region latency
+- Distributed synchronization
+
+---
+
+# 10. AI Storage Systems
+
+## Why AI Storage Matters
+
+AI systems store:
+- Model checkpoints
+- Training datasets
+- Embeddings
+- Logs
+- Vector indexes
+
+---
+
+# AI Storage Architecture
+
+```text
+Object Storage
+      ↓
+Distributed Filesystems
+      ↓
+NVMe Storage
+      ↓
+GPU Memory
+```
+
+---
+
+# Storage Types
+
+| Storage | Purpose |
+|---|---|
+| Object storage | Massive datasets |
+| NVMe SSD | High-speed access |
+| Distributed FS | Cluster workloads |
+| Vector DB | Embedding storage |
+
+---
+
+# Popular AI Storage Systems
+
+| Storage System | Usage |
+|---|---|
+| Amazon S3 | Cloud object storage |
+| Google Cloud Storage | AI datasets |
+| Azure Blob Storage | Enterprise AI |
+| Ceph | Distributed storage |
+| Lustre | HPC AI storage |
+
+---
+
+# Storage Challenges
+
+| Challenge | Description |
+|---|---|
+| Massive datasets | Scaling complexity |
+| I/O bottlenecks | Slow training |
+| Cost optimization | Expensive storage |
+
+---
+
+# AI Data Lifecycle
+
+```text
+Raw Data
+    ↓
+Processing
+    ↓
+Training Data
+    ↓
+Inference Storage
+    ↓
+Archival
+```
+
+---
+
+# Cloud-Native AI Deployment Stack
+
+```text
+Applications
+      ↓
+Kubernetes
+      ↓
+AI Serving Layer
+      ↓
+GPU Infrastructure
+      ↓
+Networking & Storage
+      ↓
+Cloud Provider
+```
+
+---
+
+# AI Kubernetes Stack
+
+| Layer | Technology |
+|---|---|
+| Orchestration | Kubernetes |
+| AI Serving | KServe, Ray Serve |
+| Monitoring | Prometheus |
+| GitOps | ArgoCD |
+| IaC | Terraform |
+
+---
+
+# Cloud-Native AI Security
+
+| Security Area | Importance |
+|---|---|
+| IAM/RBAC | Access control |
+| Encryption | Secure storage |
+| Secrets management | Credential security |
+| Network policies | Cluster isolation |
+
+---
+
+# Observability in Cloud AI
+
+Important metrics:
+- GPU utilization
+- AI latency
+- Cost/request
+- Token usage
+- Network throughput
+
+---
+
+# Common Cloud-Native AI Challenges
+
+| Challenge | Description |
+|---|---|
+| GPU scarcity | Limited availability |
+| High cost | AI infrastructure expense |
+| Networking bottlenecks | Distributed training |
+| Vendor lock-in | Cloud dependency |
+| Scaling | Massive workloads |
+
+---
+
+# Best Practices
+
+| Practice | Benefit |
+|---|---|
+| Use Kubernetes | Scalable orchestration |
+| Optimize GPU utilization | Lower cost |
+| Use IaC | Reproducible infrastructure |
+| Monitor AI systems | Better observability |
+| Implement GitOps | Safer deployments |
+
+---
+
+# Skills Needed for Cloud AI Engineers
+
+- Kubernetes
+- GPU infrastructure
+- Cloud networking
+- Terraform
+- AI serving
+- Distributed systems
+- Observability
+- Security engineering
+
+---
+
+# Summary
+
+Cloud-Native AI Systems provide:
+- Scalable AI infrastructure
+- Distributed GPU computing
+- Enterprise AI deployment
+- Multi-cloud AI orchestration
+
+Modern AI platforms rely heavily on:
+- AWS AI Stack
+- Azure AI
+- Vertex AI
+- Kubernetes
+- GPU infrastructure
+- Distributed networking
+
+Mastering cloud-native AI is essential for:
+- LLMOps Engineers
+- AI Infrastructure Engineers
+- Platform Engineers
+- MLOps Engineers
+- GenAI Architects
